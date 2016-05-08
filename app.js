@@ -15,8 +15,8 @@ var a = parseInt(value);
 	}
 
 	else{
-		b = $('#list').append('<li class="numbers"> <span>' + i + '</span> </li>');	 ;
-		}
+		b = $('#list').append('<li class="numbers"> <span>' + i + '</span> </li>');	 
+	}
 		console.log(b);
 	}
 }
