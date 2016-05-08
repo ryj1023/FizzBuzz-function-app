@@ -8,6 +8,7 @@ var a = parseInt(value);
 		if(i % 15 === 0){
  	   	b = $('#list').append('<li class="numbers"> <span>' + "FizzBuzz" + '</span> </li>');
 	} else if(i % 5 === 0){
+		
 		b = $('#list').append('<li class="numbers"> <span>' + "Fizz" + '</span> </li>');
 		
 	} else if(i % 3 === 0 ){
@@ -15,7 +16,7 @@ var a = parseInt(value);
 	}
 
 	else{
-		b = $('#list').append('<li class="numbers"> <span>' + i + '</span> </li>');	 ;
+		b = $('#list').append('<li class="numbers"> <span>' + i + '</span> </li>');	 
 		}
 		console.log(b);
 	}
